@@ -7,12 +7,14 @@
 //
 
 #import "JKAppDelegate.h"
+#import "JKMonitor.h"
 
 @implementation JKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[JKMonitor sharedInstance] enable];
     return YES;
 }
 

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JKMonitor'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JKMonitor.'
+  s.summary          = '轻量级的性能监控工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  iOS Monitor
                        DESC
 
-  s.homepage         = 'https://github.com/wangzhiheng/JKMonitor'
+  s.homepage         = 'https://github.com/jack6231/JKMonitor'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wangzhiheng' => 'wangzhiheng6231@163.com' }
-  s.source           = { :git => 'https://github.com/wangzhiheng/JKMonitor.git', :tag => s.version.to_s }
+  s.author           = { 'jack6231' => 'wangzhiheng6231@163.com' }
+  s.source           = { :git => 'https://github.com/jack6231/JKMonitor.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
