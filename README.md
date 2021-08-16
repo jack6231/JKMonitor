@@ -16,9 +16,24 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 JKMonitor is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
-pod 'JKMonitor'
 ```
+pod 'JKMonitor', :git => 'https://github.com/jack6231/JKMonitor.git'
+```
+## Swift Project 
+add header to ***-Bridging-Header.h
+```
+#import "JKMonitor.h"
+```
+use (AppDelegate)
+```
+JKMonitor.sharedInstance().enable()
+```
+## Objective-C Project
+use (AppDelegate)
+```
+[[JKMonitor sharedInstance] enable];
+```
+
 
 ## Author
 
